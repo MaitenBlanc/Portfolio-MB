@@ -35,10 +35,10 @@ export default function CarouselAluraGeek() {
     return (
         <div>
             <div className='containerTitle'>
-                <a className='titleProject' href='https://maitenblanc.github.io/Portafolio/proyectos/AluraGeek/' target='_blank' rel='noreferrer'>
+                <a className='titleProject' href='https://maitenblanc.github.io/Proyecto-AluraGeek/' target='_blank' rel='noreferrer'>
                     AluraGeek (e-commerce)
                 </a>
-                <a className='clickMe' href='https://maitenblanc.github.io/Portafolio/proyectos/AluraGeek/' target='_blank' rel='noreferrer'>
+                <a className='clickMe' href='https://maitenblanc.github.io/Proyecto-AluraGeek/' target='_blank' rel='noreferrer'>
                     &emsp;<i class="bi bi-box-arrow-left"></i>&nbsp;
                     Click
                 </a>
