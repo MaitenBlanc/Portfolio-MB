@@ -35,10 +35,10 @@ export default function CarouselBarber() {
     return (
         <div>
             <div className='containerTitle'>
-                <a className='titleProject' href='https://maitenblanc.github.io/Portafolio/proyectos/barberia/' target='_blank' rel='noreferrer'>
+                <a className='titleProject' href='https://maitenblanc.github.io/Barberia-Alura/' target='_blank' rel='noreferrer'>
                     Barbería Alura
                 </a>
-                <a className='clickMe' href='https://maitenblanc.github.io/Portafolio/proyectos/barberia/' target='_blank' rel='noreferrer'>
+                <a className='clickMe' href='https://maitenblanc.github.io/Barberia-Alura/' target='_blank' rel='noreferrer'>
                     &emsp;<i class="bi bi-box-arrow-left"></i>&nbsp;
                     Click
                 </a>
