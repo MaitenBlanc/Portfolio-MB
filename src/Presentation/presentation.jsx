@@ -9,7 +9,7 @@ const Presentation = () => {
                 Soy estudiante de Ingeniería en Sistemas de Información.<br></br>
                 Actualmente vivo en Concepción del Uruguay, Entre Ríos, Argentina.</p>
             <img src={photo} alt='Foto de Maitén Blanc' className='photo' />
-            <a className='cv' href='./blob/master/src/Presentation/CV.pdf' target='blank'>
+            <a className='cv' href='./CV.pdf' target='blank'>
                 <i class="bi bi-file-earmark-person"></i> Visualizar CV aquí</a>
         </div>
     );
