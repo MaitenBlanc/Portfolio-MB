@@ -1,0 +1,63 @@
+@import '../Variables/fonts.css';
+
+.EducationCard {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-bottom: 0.5em;
+    zoom: 1;
+    vertical-align: top;
+    margin: auto;
+    padding-bottom: 5em;
+    width: 90%;
+}
+
+.titleEducation {
+    font-family: var(--dancingScript);
+    font-size: 3em;
+    padding: 0.5em 0.5em 0.5em 2em;
+    margin: 0;
+}
+
+.cardEducation {
+    border-radius: 0.5em;
+    width: 85%;
+    height: 70%;
+    box-shadow: 0 0.2em 0.5em 0.2em #00000010;
+    justify-items: center;
+    align-items: center;
+}
+
+
+.imageCardEducation {
+    display: flex;
+    margin: auto auto 0.6em auto;
+    width: 15em;
+    height: 6em;
+    box-sizing: content-box;
+    border: 0.1em solid transparent;
+}
+
+.cardTitleEducation {
+    text-align: center;
+    font-weight: bold;
+    font-family: var(--poppins);
+    font-size: 1.3em;
+    margin: 0;
+}
+
+.cardSubtitleEducation {
+    font-family: var(--poppins);
+    font-weight: bold;
+    font-size: 1em;
+    text-align: center;
+    margin: 0;
+}
+
+.cardBodyEducation {
+    border: 0.1em solid transparent;
+    background-color: var(--gray-background);
+    margin: auto auto auto auto;
+    border-top: 0.1em outset #80a5dd;
+    width: 28.5em;
+    translate: -1em;
+}

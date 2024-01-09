@@ -1,0 +1,23 @@
+@import '../Variables/fonts.css';
+@import '../Variables/colors.css';
+
+.aboutMe {
+    padding: 0 0 5em 6em;
+    background-color: var(--gray-background);
+}
+
+.aboutMe-title {
+    font-family: var(--dancingScript);
+    font-size: 3em;
+    padding-top: 0.5em;
+}
+
+.aboutMe-text {
+    font-family: var(--poppins);
+    font-size: 1.15em;
+    font-weight: 300;
+    line-height: 1.7em;
+    padding-left: 5em;
+    text-align: justify;
+    width: 75%;
+}

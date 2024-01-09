@@ -1,0 +1,50 @@
+@import '../Variables/colors.css';
+@import '../Variables/fonts.css';
+
+.menu {
+    display: block;
+    /* grid-template-columns: repeat(1, 8em); */
+    /* grid-gap: 0.625em; */
+    float: right;
+    padding-right: 2em;
+    height: auto;
+}
+
+.menuLI {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    list-style: none;
+    text-align: center;
+    margin: 0.5em;
+}
+
+.menuItem {
+    border-radius: 5em;
+    border: 1px solid var(--blue);
+    text-decoration: none;
+    padding: 0.5em;
+    background-color: transparent;
+    cursor: pointer;
+    font-family: var(--roboto);
+    font-size: 1.1em;
+    font-weight: bold;
+    list-style: none;
+    color: var(--blue);
+    text-align: center;
+}
+
+.menuItem:hover {
+    background-color: var(--blue);
+    color: white;
+
+}
+
+nav {
+    transition: .3s;
+}
+
+nav.sticky {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}

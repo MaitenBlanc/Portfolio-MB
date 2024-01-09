@@ -1,0 +1,40 @@
+@import '../Variables/fonts.css';
+
+.skillsCard {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 80%;
+    padding-bottom: 0.5em;
+    zoom: 1;
+    vertical-align: top;
+    margin-left: 4em;
+    margin: auto;
+    padding-bottom: 5em;
+}
+
+.titleSkills {
+    font-family: var(--dancingScript);
+    font-size: 3em;
+    padding: 0.5em 0.5em 0.5em 2em;
+    margin: 0;
+}
+
+.card {
+    border-radius: 0.5em;
+    width: 70%;
+    height: 70%;
+    margin: 0.5em;
+    padding: 1em;
+    box-shadow: 0 0.2em 0.5em 0.2em #00000010;
+}
+
+.imageCard {
+    display: flex;
+    margin: auto;
+}
+
+.cardTitle {
+    text-align: center;
+    font-weight: bold;
+    font-family: var(--poppins);
+}

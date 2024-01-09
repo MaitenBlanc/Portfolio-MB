@@ -1,0 +1,13 @@
+@import "../Variables/fonts.css";
+@import '../Variables/colors.css';
+
+.name {
+  font-size: 3em;
+  font-family: var(--dancingScript);
+  margin-left: 1.5em;
+  font-weight: 600;
+}
+
+#iconName {
+  color: var(--blue);
+}
