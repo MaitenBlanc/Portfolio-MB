@@ -5,7 +5,7 @@ import './skills.css';
 
 const Skills = () => {
     return (
-        <div div className='card' id='card'>
+        <div div className='card'>
             <div className='cardGroup'>
                 <item>
                     {Data.map(item => (
