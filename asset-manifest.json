@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/Portfolio-MB/static/css/main.aff63e11.css",
-    "main.js": "/Portfolio-MB/static/js/main.aff5f8ab.js",
+    "main.css": "/Portfolio-MB/static/css/main.61a20adf.css",
+    "main.js": "/Portfolio-MB/static/js/main.14568304.js",
     "static/js/787.7da95b79.chunk.js": "/Portfolio-MB/static/js/787.7da95b79.chunk.js",
     "static/media/Foto.jpg": "/Portfolio-MB/static/media/Foto.f80ae5b7604500dbe88d.jpg",
-    "static/media/iloveimg-resized.zip": "/Portfolio-MB/static/media/iloveimg-resized.e3cb1de3f660443e5f2b.zip",
+    "static/media/encrypt.PNG": "/Portfolio-MB/static/media/encrypt.ef5abeccb8222391f092.PNG",
+    "static/media/encrypt-desk.png": "/Portfolio-MB/static/media/encrypt-desk.c39a10e222d3ff28a013.png",
     "static/media/barberia-home.png": "/Portfolio-MB/static/media/barberia-home.e842853cb82409c7403d.png",
     "static/media/bootstrap-icons.woff?": "/Portfolio-MB/static/media/bootstrap-icons.66b7720f4a230f1b0341.woff",
     "static/media/aluraGeek-home.png": "/Portfolio-MB/static/media/aluraGeek-home.c3f28197988b9a830492.png",
@@ -14,11 +15,9 @@
     "static/media/Open-Bootcamp.png": "/Portfolio-MB/static/media/Open-Bootcamp.db4d50ac8caa987c4fab.png",
     "static/media/aluraGeek-agregarProducto.png": "/Portfolio-MB/static/media/aluraGeek-agregarProducto.9aa35429c6251f2d02ea.png",
     "static/media/deyel.png": "/Portfolio-MB/static/media/deyel.e47b21c3e7b37f5a13a5.png",
-    "static/media/logo-barberia-resize.svg": "/Portfolio-MB/static/media/logo-barberia-resize.4c8a6c6c0622efd736ab.svg",
     "static/media/ticmas.png": "/Portfolio-MB/static/media/ticmas.1c473f1b1ffcad02fae6.png",
     "static/media/barberia-contacto.PNG": "/Portfolio-MB/static/media/barberia-contacto.7e5c17ed11f376ec660a.PNG",
     "static/media/alura.png": "/Portfolio-MB/static/media/alura.b160e53aaa7b24f27889.png",
-    "static/media/logo-barberia.svg": "/Portfolio-MB/static/media/logo-barberia.886bac95ae6384d07ba1.svg",
     "static/media/logo-java.svg": "/Portfolio-MB/static/media/logo-java.d8c58cdc7373d472425036be8b41598e.svg",
     "static/media/logo-node.svg": "/Portfolio-MB/static/media/logo-node.2392983dc38f1c5a989eef634eceddbe.svg",
     "index.html": "/Portfolio-MB/index.html",
@@ -34,12 +33,12 @@
     "static/media/logo-linkedin.svg": "/Portfolio-MB/static/media/logo-linkedin.64e7e5d14a404c1ef874ed5db4c8a3df.svg",
     "static/media/logo-bootstrap.svg": "/Portfolio-MB/static/media/logo-bootstrap.99ff40c99633dbe9199a405ec4ff4f65.svg",
     "static/media/logo-utn.svg": "/Portfolio-MB/static/media/logo-utn.cfe113835531e38f05da091910815e50.svg",
-    "main.aff63e11.css.map": "/Portfolio-MB/static/css/main.aff63e11.css.map",
-    "main.aff5f8ab.js.map": "/Portfolio-MB/static/js/main.aff5f8ab.js.map",
+    "main.61a20adf.css.map": "/Portfolio-MB/static/css/main.61a20adf.css.map",
+    "main.14568304.js.map": "/Portfolio-MB/static/js/main.14568304.js.map",
     "787.7da95b79.chunk.js.map": "/Portfolio-MB/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.aff63e11.css",
-    "static/js/main.aff5f8ab.js"
+    "static/css/main.61a20adf.css",
+    "static/js/main.14568304.js"
   ]
 }
