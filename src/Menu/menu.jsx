@@ -16,10 +16,14 @@ export default function Buttons() {
 
     return (
         <nav className={`${sticky ? 'sticky' : ''}`}>
-            <div className='menu'>
-                <ul>
+            <input type='checkbox' id='check' />
+            <label for='check' className='checkbtn'>
+                <i className='fas fa-bars'></i>
+            </label>
+            <nav className='menu'>
+                <ul className='listMenu'>
                     <li className='menuLI'>
-                        <a href='#aboutMe' className='menuItem'>Sobre Mí</a>
+                        <a class='active' href='#aboutMe' className='menuItem'>Sobre Mí</a>
                     </li>
                     <li className='menuLI'>
                         <a href='#titleSkills' className='menuItem'>Skills</a>
@@ -37,7 +41,7 @@ export default function Buttons() {
                         <a href='#contact' className='menuItem'>Contacto</a>
                     </li>
                 </ul>
-            </div>
+            </nav>
         </nav>
     );
 }
