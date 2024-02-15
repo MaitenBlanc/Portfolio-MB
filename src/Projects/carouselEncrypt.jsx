@@ -3,8 +3,8 @@ import './projects.css';
 
 export default function CarouselEncrypt() {
     const images = [
-        "encrypt.PNG",
         "encrypt-desk.png",
+        "encrypt.PNG",
     ]
 
     const [selectedIndex, setSelectedIndex] = useState(0);
