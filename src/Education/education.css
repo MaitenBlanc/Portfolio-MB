@@ -1,69 +1,40 @@
 @import '../Variables/fonts.css';
 
-div.card {
-    padding: 0;
-    width: 75%;
-    padding-bottom: 1.3em;
+.education {
+    margin-bottom: 5em;
 }
 
 .EducationCard {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    zoom: 1;
-    vertical-align: top;
-    margin: auto;
     width: 90%;
+    padding-left: 5em;
 }
 
-.titleEducation {
-    font-family: var(--dancingScript);
-    font-size: 3em;
-    padding: 0.5em 0.5em 0.5em 2em;
-    margin: 0;
+h1 {
+    font-size: 1.5em;
 }
 
-.cardEducation {
-    border-radius: 0.5em;
-    width: 85%;
-    height: 70%;
-    box-shadow: 0 0.2em 0.5em 0.2em #00000010;
-    justify-items: center;
+.cardEd {
+    margin: auto;
+    padding: 0;
+    justify-content: center;
     align-items: center;
+    width: 80%;
+    margin-bottom: 2em;
 }
 
-
-.imageCardEducation {
-    display: flex;
-    margin: auto;
-    width: 15em;
-    height: 6em;
-    box-sizing: content-box;
-    border: 0.1em solid transparent;
-}
-
-.cardTitleEducation {
+.bodyEd {
+    padding: 0;
+    width: 100%;
     text-align: center;
-    font-weight: bold;
-    font-family: var(--poppins);
-    font-size: 1.3em;
-    margin: 0;
-}
-
-.cardSubtitleEducation {
-    font-family: var(--poppins);
-    font-weight: bold;
-    font-size: 1em;
-    text-align: center;
-    margin: 0;
-}
-
-.cardBodyEducation {
     background-color: var(--gray-background);
-    margin: auto;
-    border-top: 0.1em outset #80a5dd;
-    width: 28.56em;
-    border-end-end-radius: 0.5em;
-    translate: -0.05em;
+    border-top: 0.02em solid var(--blue);
+}
+
+.imageEd {
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 
 @media only screen and (max-width: 800px) {
@@ -114,10 +85,12 @@ div.card {
     div.card {
         width: auto;
         padding: 0;
+        margin-bottom: 1.5em;
     }
 
     .EducationCard {
         display: block;
+        padding: 0;
     }
 
     .titleEducation {

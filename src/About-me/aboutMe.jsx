@@ -4,7 +4,7 @@ import './aboutMe.css';
 const AboutMe = () => {
     return (
         <div className='aboutMe'>
-            <h2 className='aboutMe-title'>Sobre Mí:</h2>
+            <h2 className='title'>Sobre Mí:</h2>
             <p className='aboutMe-text'>
                 &emsp; Tengo gran interés en el Desarrollo Web y la programación orientada a objetos. <br></br>
                 &emsp; Poseo gran capacidad para adaptarme a todo tipo de entornos y aportar siempre lo mejor de mí. Me

@@ -1,19 +1,19 @@
 import React from "react";
-import Container from 'react-bootstrap/Container';
 import Card from 'react-bootstrap/Card';
-import './skills.css';
-import imageHTML from '../assets/images/skills/logo-html.svg';
-import imageJS from '../assets/images/skills/logo-js.svg';
-import imageCSS from '../assets/images/skills/logo-css.svg';
+import Container from 'react-bootstrap/Container';
+import imageKotlin from '../assets/images/skills/logo-android.png';
 import imageBootstrap from '../assets/images/skills/logo-bootstrap.svg';
-import imageReact from '../assets/images/skills/logo-react.svg';
-import imageNode from '../assets/images/skills/logo-node.svg';
-import imageJava from '../assets/images/skills/logo-java.svg';
-import imagePython from '../assets/images/skills/logo-python.svg';
-import imageMySQL from '../assets/images/skills/logo-mysql.png';
+import imageCSS from '../assets/images/skills/logo-css.svg';
 import imageGit from '../assets/images/skills/logo-git.svg';
 import imageGitHub from '../assets/images/skills/logo-github.svg';
-import imageKotlin from '../assets/images/skills/logo-android.png';
+import imageHTML from '../assets/images/skills/logo-html.svg';
+import imageJava from '../assets/images/skills/logo-java.svg';
+import imageJS from '../assets/images/skills/logo-js.svg';
+import imageMySQL from '../assets/images/skills/logo-mysql.png';
+import imageNode from '../assets/images/skills/logo-node.svg';
+import imagePython from '../assets/images/skills/logo-python.svg';
+import imageReact from '../assets/images/skills/logo-react.svg';
+import './skills.css';
 
 const data = [
   {

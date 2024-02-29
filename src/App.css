@@ -1,15 +1,17 @@
-body {
-  background-color: white;
+.title {
+    font-family: var(--dancingScript);
+    font-size: 3em;
+    font-weight: bold;
+    padding: 0.5em 0.5em 0.5em 2em;
+    margin: 0;
 }
+
+/* @media only screen and (max-width: 800px) {
+
+} */
 
 @media only screen and (max-width: 400px) {
-  body {
-    width: 100%;
-  }
-}
-
-@media only screen and (max-width: 800px) {
-  body {
-    width: 100%;
-  }
+    .title {
+        padding: 0.5em;
+    }
 }

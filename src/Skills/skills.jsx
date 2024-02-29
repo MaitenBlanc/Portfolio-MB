@@ -1,11 +1,11 @@
-import React from 'react';
-import Data from './skills.js';
 import 'bootstrap';
+import React from 'react';
 import './skills.css';
+import Data from './skills.js';
 
 const Skills = () => {
     return (
-        <div div className='card'>
+        <div div className='card cardSkill'>
             <div className='cardGroup'>
                 <item>
                     {Data.map(item => (

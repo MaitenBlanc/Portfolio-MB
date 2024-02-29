@@ -10,16 +10,10 @@
     margin-left: 4em;
     margin: auto;
     padding-bottom: 5em;
+    gap: 1em;
 }
 
-.titleSkills {
-    font-family: var(--dancingScript);
-    font-size: 3em;
-    padding: 0.5em 0.5em 0.5em 2em;
-    margin: 0;
-}
-
-.card {
+.cardSkill {
     border-radius: 0.5em;
     width: 70%;
     height: 70%;
@@ -44,11 +38,16 @@
 
 @media only screen and (max-width: 400px) {
     .skillsCard {
+        grid-template-columns: repeat(2, 1fr);
         margin: auto;
         padding: 0;
     }
 
     .titleSkills {
         padding: 0.5em;
+    }
+
+    .containerHobbies .cardBody {
+        padding: 0;
     }
 }

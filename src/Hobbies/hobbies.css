@@ -14,6 +14,7 @@
     zoom: 1;
     margin-left: 4em;
     margin: auto;
+    gap: 1em;
 }
 
 .titleHobbies {
@@ -49,7 +50,17 @@
 } */
 
 @media only screen and (max-width: 400px) {
-    .hobbies {
+    .hobbiesCard {
+        grid-template-columns: repeat(2, 1fr);
+        margin: auto;
+    }
+
+    .containerHobbies .card {
+        margin: 0;
+        padding: 1em;
+    }
+
+    .cardBody {
         padding: 0;
     }
 

@@ -6,13 +6,6 @@
     background-color: var(--gray-background);
 }
 
-.aboutMe-title {
-    font-family: var(--dancingScript);
-    font-size: 3em;
-    padding: 0.5em 0.5em 0.5em 2em;
-    margin: 0;
-}
-
 .aboutMe-text {
     font-family: var(--poppins);
     font-size: 1.15em;

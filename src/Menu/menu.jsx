@@ -20,31 +20,34 @@ export default function Buttons() {
 
     return (
         <nav className={`${sticky ? 'sticky' : ''}`} >
-            <input type='checkbox' id='check' />
-            <label for='check' className='checkbtn'>
-                <i className='fas fa-bars'></i>
-            </label>
-            <nav className='menu'>
-                <ul className='listMenu'>
-                    <li className='menuLI'>
-                        <a class='active' href='#aboutMe' className='menuItem'>Sobre Mí</a>
-                    </li>
-                    <li className='menuLI'>
-                        <a href='#titleSkills' className='menuItem'>Skills</a>
-                    </li>
-                    <li className='menuLI'>
-                        <a href='#hobbies' className='menuItem'>Hobbies</a>
-                    </li>
-                    <li className='menuLI'>
-                        <a href='#education' className='menuItem'>Formación</a>
-                    </li>
-                    <li className='menuLI'>
-                        <a href='#projects' className='menuItem'>Proyectos</a>
-                    </li>
-                    <li className='menuLI'>
-                        <a href='#contact' className='menuItem'>Contacto</a>
-                    </li>
-                </ul>
+            <nav class="navbar navbar-expand-lg bg-transparent" >
+                <div className="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span className="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li className="nav-item">
+                                <a className="nav-link" href="#aboutMe">Sobre Mí</a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link" href="#titleSkills">Skills</a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link" href="#hobbies">Hobbies</a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link" href="#education">Formación</a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link" href="#projects">Proyectos</a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link" href="#contact">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </nav>
         </nav>
     );

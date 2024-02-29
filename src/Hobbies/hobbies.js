@@ -13,22 +13,22 @@ const data = [
     {
         "id": 1,
         "image": imageFunc,
-        "title": "Entrenamiento Funcional"
+        "title": "Funcional"
     },
     {
         "id": 2,
         "image": imageMusic,
-        "title": "Escuchar Música"
+        "title": "Música"
     },
     {
         "id": 3,
         "image": imageBike,
-        "title": "Andar en bicicleta"
+        "title": "Bicicleta"
     },
     {
         "id": 4,
         "image": imageBass,
-        "title": "Tocar el bajo"
+        "title": "Bajo"
     },
     {
         "id": 5,
@@ -47,10 +47,10 @@ function hobbiesIteration() {
     return (
         data.map((data) => {
             return (
-                <Container fluid className='fluid'>
+                <Container fluid className='fluid containerHobbies'>
                     <Card>
                         <Card.Img variant="top" src={data.image} className="imageCard" />
-                        <Card.Body>
+                        <Card.Body className="cardBody">
                             <Card.Title className="cardTitle">{data.title}</Card.Title>
                         </Card.Body>
                     </Card>
