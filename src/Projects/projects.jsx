@@ -1,8 +1,9 @@
-import React from 'react';
 import 'bootstrap';
-import CarouselBarber from './carouselBarber.jsx';
+import React from 'react';
 import CarouselAluraGeek from './carouselAluraGeek.jsx';
+import CarouselBarber from './carouselBarber.jsx';
 import CarouselEncrypt from './carouselEncrypt.jsx';
+import CarouselOrders from './carouselOrders.jsx';
 
 const Projects = () => {
     return (
@@ -15,6 +16,9 @@ const Projects = () => {
             </div>
             <div>
                 <CarouselAluraGeek></CarouselAluraGeek>
+            </div>
+            <div>
+                <CarouselOrders></CarouselOrders>
             </div>
         </div>
 

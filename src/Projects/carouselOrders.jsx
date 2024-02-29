@@ -1,10 +1,12 @@
 import React, { useState } from 'react';
 import './projects.css';
 
-export default function CarouselEncrypt() {
+export default function CarouselOrders() {
     const images = [
-        "encrypt-desk.png",
-        "encrypt.PNG"
+        "pedidos-home.PNG",
+        "pedidos-carrito.PNG",
+        "pedidos-articulo.PNG",
+        "pedidos-perfil.PNG",
     ]
 
     const [selectedIndex, setSelectedIndex] = useState(0);
@@ -34,19 +36,19 @@ export default function CarouselEncrypt() {
     return (
         <div>
             <div className='containerTitle'>
-                <a className='titleProject' href='https://maitenblanc.github.io/Encriptador/' target='_blank' rel='noreferrer'>
-                    Encriptador - Responsive
+                <a className='titleProject' href='https://app-pedidos-comida.netlify.app/' target='_blank' rel='noreferrer'>
+                    App Pedidos - Responsive
                 </a>
-                <a className='clickMe' href='https://maitenblanc.github.io/Encriptador/' target='_blank' rel='noreferrer'>
+                <a className='clickMe' href='https://app-pedidos-comida.netlify.app/' target='_blank' rel='noreferrer'>
                     &emsp;<i class="bi bi-box-arrow-left"></i>&nbsp;
                     Click
                 </a>
             </div>
-            <div className='carousel'>
+            <div className='carousel carousel-orders'>
                 <button className='carouselButton' onClick={previous}>
                     <i class="bi bi-arrow-left-circle-fill"></i>
                 </button>
-                <img className={`carouselImg ${loaded ? "loaded" : ""}`} src={require(`../assets/images/proyectos/${selectedImage}`)} alt='Encrypt' onLoad={() => setLoaded(true)} />
+                <img className={`carouselImg ${loaded ? "loaded" : ""}`} src={require(`../assets/images/proyectos/${selectedImage}`)} alt='Orders' onLoad={() => setLoaded(true)} />
                 <button className='carouselButton' onClick={next}>
                     <i class="bi bi-arrow-right-circle-fill"></i>
                 </button>

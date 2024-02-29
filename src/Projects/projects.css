@@ -104,6 +104,11 @@
     justify-content: center;
 }
 
+.carousel-orders img {
+    width: 15em;
+    height: auto;
+}
+
 .carouselImg {
     max-width: 500px;
     width: 100%;
