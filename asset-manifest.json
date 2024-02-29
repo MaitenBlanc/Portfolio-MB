@@ -1,23 +1,28 @@
 {
   "files": {
-    "main.css": "/Portfolio-MB/static/css/main.61a20adf.css",
-    "main.js": "/Portfolio-MB/static/js/main.9b69a314.js",
+    "main.css": "/Portfolio-MB/static/css/main.29cf9f5b.css",
+    "main.js": "/Portfolio-MB/static/js/main.3c95519d.js",
     "static/js/787.7da95b79.chunk.js": "/Portfolio-MB/static/js/787.7da95b79.chunk.js",
     "static/media/Foto.jpg": "/Portfolio-MB/static/media/Foto.f80ae5b7604500dbe88d.jpg",
     "static/media/encrypt.PNG": "/Portfolio-MB/static/media/encrypt.ef5abeccb8222391f092.PNG",
     "static/media/encrypt-desk.png": "/Portfolio-MB/static/media/encrypt-desk.c39a10e222d3ff28a013.png",
     "static/media/barberia-home.png": "/Portfolio-MB/static/media/barberia-home.e842853cb82409c7403d.png",
+    "static/media/pedidos-home.PNG": "/Portfolio-MB/static/media/pedidos-home.b63d84f65808927f5187.PNG",
     "static/media/bootstrap-icons.woff?": "/Portfolio-MB/static/media/bootstrap-icons.66b7720f4a230f1b0341.woff",
     "static/media/aluraGeek-home.png": "/Portfolio-MB/static/media/aluraGeek-home.c3f28197988b9a830492.png",
     "static/media/aluraGeek-Productos.png": "/Portfolio-MB/static/media/aluraGeek-Productos.74b65ddf053435170546.png",
     "static/media/bootstrap-icons.woff2?": "/Portfolio-MB/static/media/bootstrap-icons.64ed46b247405068ca60.woff2",
+    "static/media/logo-uader.png": "/Portfolio-MB/static/media/logo-uader.50caceb692e7fde1d1b9.png",
     "static/media/barberia-productos.PNG": "/Portfolio-MB/static/media/barberia-productos.cc8d1635213df91a957a.PNG",
+    "static/media/pedidos-articulo.PNG": "/Portfolio-MB/static/media/pedidos-articulo.668443841aa78a6ec4ac.PNG",
     "static/media/Open-Bootcamp.png": "/Portfolio-MB/static/media/Open-Bootcamp.db4d50ac8caa987c4fab.png",
+    "static/media/pedidos-carrito.PNG": "/Portfolio-MB/static/media/pedidos-carrito.39936ee6df064bfcf2d3.PNG",
     "static/media/aluraGeek-agregarProducto.png": "/Portfolio-MB/static/media/aluraGeek-agregarProducto.9aa35429c6251f2d02ea.png",
     "static/media/deyel.png": "/Portfolio-MB/static/media/deyel.e47b21c3e7b37f5a13a5.png",
     "static/media/ticmas.png": "/Portfolio-MB/static/media/ticmas.1c473f1b1ffcad02fae6.png",
     "static/media/barberia-contacto.PNG": "/Portfolio-MB/static/media/barberia-contacto.7e5c17ed11f376ec660a.PNG",
     "static/media/alura.png": "/Portfolio-MB/static/media/alura.b160e53aaa7b24f27889.png",
+    "static/media/pedidos-perfil.PNG": "/Portfolio-MB/static/media/pedidos-perfil.94840062bb180487681e.PNG",
     "static/media/logo-java.svg": "/Portfolio-MB/static/media/logo-java.d8c58cdc7373d472425036be8b41598e.svg",
     "static/media/logo-node.svg": "/Portfolio-MB/static/media/logo-node.2392983dc38f1c5a989eef634eceddbe.svg",
     "index.html": "/Portfolio-MB/index.html",
@@ -33,12 +38,12 @@
     "static/media/logo-linkedin.svg": "/Portfolio-MB/static/media/logo-linkedin.64e7e5d14a404c1ef874ed5db4c8a3df.svg",
     "static/media/logo-bootstrap.svg": "/Portfolio-MB/static/media/logo-bootstrap.99ff40c99633dbe9199a405ec4ff4f65.svg",
     "static/media/logo-utn.svg": "/Portfolio-MB/static/media/logo-utn.cfe113835531e38f05da091910815e50.svg",
-    "main.61a20adf.css.map": "/Portfolio-MB/static/css/main.61a20adf.css.map",
-    "main.9b69a314.js.map": "/Portfolio-MB/static/js/main.9b69a314.js.map",
+    "main.29cf9f5b.css.map": "/Portfolio-MB/static/css/main.29cf9f5b.css.map",
+    "main.3c95519d.js.map": "/Portfolio-MB/static/js/main.3c95519d.js.map",
     "787.7da95b79.chunk.js.map": "/Portfolio-MB/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.61a20adf.css",
-    "static/js/main.9b69a314.js"
+    "static/css/main.29cf9f5b.css",
+    "static/js/main.3c95519d.js"
   ]
 }
