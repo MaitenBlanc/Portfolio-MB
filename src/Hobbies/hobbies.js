@@ -1,13 +1,13 @@
 import React from "react";
-import Container from 'react-bootstrap/Container';
 import Card from 'react-bootstrap/Card';
-import './hobbies.css';
-import imageFunc from '../assets/images/hobbies/logo-funcional.png';
-import imageMusic from '../assets/images/hobbies/logo-musica.png';
-import imageBike from '../assets/images/hobbies/logo-bicicleta.png';
+import Container from 'react-bootstrap/Container';
 import imageBass from '../assets/images/hobbies/logo-bajo.png';
-import imageYoga from '../assets/images/hobbies/logo-yoga.png';
+import imageBike from '../assets/images/hobbies/logo-bicicleta.png';
+import imageFunc from '../assets/images/hobbies/logo-funcional.png';
 import imageRead from '../assets/images/hobbies/logo-leer.png';
+import imageMusic from '../assets/images/hobbies/logo-musica.png';
+import imageYoga from '../assets/images/hobbies/logo-yoga.png';
+import './hobbies.css';
 
 const data = [
     {
@@ -33,7 +33,7 @@ const data = [
     {
         "id": 5,
         "image": imageYoga,
-        "title": "Yoga - Meditación"
+        "title": "Yoga"
     },
     {
         "id": 6,

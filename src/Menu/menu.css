@@ -60,16 +60,6 @@ nav.sticky {
     z-index: 100;
 }
 
-@media only screen and (max-width: 400px) {
-    .checkbtn {
-        display: block;
-    }
-
-    .menu {
-        display: none;
-    }
-}
-
 @media only screen and (max-width: 800px) {
     .checkbtn {
         display: block;
@@ -105,5 +95,24 @@ nav.sticky {
 
     #check:checked~.listMenu {
         left: 100%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .sticky {
+        display: block;
+        position: static;
+    }
+
+    #check {
+        display: none;
+    }
+
+    .checkbtn {
+        margin: auto;
+    }
+
+    .menu {
+        display: none;
     }
 }

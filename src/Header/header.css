@@ -12,15 +12,17 @@
   color: var(--blue);
 }
 
-@media only screen and (max-width: 400px) {
-  .name {
-    font-size: 1.6em;
-    padding-top: 0.6em;
-  }
-}
-
 @media only screen and (max-width: 800px) {
   .name {
     font-size: 3em;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .name {
+    font-size: 1.7em;
+    padding-top: 0.6em;
+    margin: 0;
+    margin-left: 0.5em;
   }
 }

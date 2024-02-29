@@ -137,3 +137,37 @@
     color: var(--blue);
     transition: 1000ms;
 }
+
+@media only screen and (max-width: 800px) {
+    .photo {
+        translate: -2em;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .titleProjects {
+        padding: 0.5em 0.5em 0 0.5em;
+    }
+
+    .titleProject {
+        margin-left: 0.5em;
+        margin-top: 1em;
+        padding: 0;
+        font-size: 0.9em;
+    }
+
+    .clickMe {
+        display: flex;
+        margin-bottom: auto;
+        margin-top: 1em;
+    }
+
+    .carousel {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .carouselImg {
+        margin: auto;
+    }
+}

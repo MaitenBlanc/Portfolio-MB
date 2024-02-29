@@ -34,7 +34,7 @@ div.card {
 
 .imageCardEducation {
     display: flex;
-    margin: auto auto 0.6em auto;
+    margin: auto;
     width: 15em;
     height: 6em;
     box-sizing: content-box;
@@ -64,28 +64,6 @@ div.card {
     width: 28.56em;
     border-end-end-radius: 0.5em;
     translate: -0.05em;
-}
-
-@media only screen and (max-width: 400px) {
-    div.card {
-        width: auto;
-        padding: 0;
-    }
-
-    .EducationCard {
-        display: block;
-    }
-
-    .titleEducation {
-        padding: 0.5em 0.5em 0.5em 0.5em;
-    }
-
-
-    .cardBodyEducation {
-        width: auto;
-        translate: 0em;
-        height: 100%;
-    }
 }
 
 @media only screen and (max-width: 800px) {
@@ -125,5 +103,31 @@ div.card {
         width: auto;
         height: 50%;
         translate: 0em;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    div.education {
+        padding: 0;
+    }
+
+    div.card {
+        width: auto;
+        padding: 0;
+    }
+
+    .EducationCard {
+        display: block;
+    }
+
+    .titleEducation {
+        padding: 0.5em 0.5em 0.5em 0.5em;
+    }
+
+
+    .cardBodyEducation {
+        width: auto;
+        translate: 0em;
+        height: 100%;
     }
 }

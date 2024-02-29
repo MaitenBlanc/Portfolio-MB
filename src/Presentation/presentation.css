@@ -7,13 +7,14 @@
 }
 
 .presentationText {
-    padding-top: 3em;
     padding-left: 5em;
     font-size: 1.2em;
     font-family: var(--poppins);
     font-weight: 500;
+}
+
+.presentationText p {
     line-height: 1.5em;
-    align-items: center;
 }
 
 .photo {
@@ -49,6 +50,35 @@
 
     .menu {
         display: none;
+    }
+
+    .presentationGrid {
+        display: inline;
+        margin: auto;
+    }
+
+    .presentationText {
+        margin: 0;
+        padding: 2em;
+    }
+
+    .image {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .photo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 4em;
+    }
+
+    .cv {
+        margin: auto;
+        font-size: 1.2em;
     }
 }
 

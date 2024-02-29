@@ -4,7 +4,6 @@
 .containerFooter {
     background-color: var(--blue);
     padding: 5em 5em 1em 5em;
-
 }
 
 .containerLogo {
@@ -27,4 +26,14 @@
     font-family: var(--dancingScript);
     font-weight: 200;
     font-size: 1.1em;
+}
+
+@media only screen and (max-width: 400px) {
+    .logo {
+        width: 4em;
+    }
+
+    .containerLogo {
+        gap: 1.5em;
+    }
 }

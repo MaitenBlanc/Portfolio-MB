@@ -2,14 +2,15 @@
 @import '../Variables/colors.css';
 
 .aboutMe {
-    padding: 0 0 5em 6em;
+    padding-bottom: 2em;
     background-color: var(--gray-background);
 }
 
 .aboutMe-title {
     font-family: var(--dancingScript);
     font-size: 3em;
-    padding-top: 0.5em;
+    padding: 0.5em 0.5em 0.5em 2em;
+    margin: 0;
 }
 
 .aboutMe-text {
@@ -17,7 +18,25 @@
     font-size: 1.15em;
     font-weight: 300;
     line-height: 1.7em;
-    padding-left: 5em;
+    padding-left: 8em;
     text-align: justify;
     width: 75%;
+}
+
+/* @media only screen and (max-width: 800px) {
+    .photo {
+        translate: -2em;
+    }
+} */
+
+@media only screen and (max-width: 400px) {
+    .aboutMe-title {
+        margin: 0;
+        padding: 0.5em;
+    }
+
+    .aboutMe-text {
+        margin: auto;
+        padding: 0;
+    }
 }

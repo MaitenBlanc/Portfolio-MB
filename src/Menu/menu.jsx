@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import './menu.css';
 
 export default function Buttons() {
@@ -7,15 +7,19 @@ export default function Buttons() {
 
     useEffect(() => {
         const handleScroll = () => {
-            setSticky(window.scrollY > 200)
-            console.log(window.scrollY);
+            if (window.screen.width > 1000) {
+                setSticky(window.scrollY > 200)
+                console.log(window.scrollY);
+            } else {
+                setSticky(window.scrollY < 0);
+            }
         }
         window.addEventListener('scroll', handleScroll);
         return () => window.removeEventListener('scroll', handleScroll);
     })
 
     return (
-        <nav className={`${sticky ? 'sticky' : ''}`}>
+        <nav className={`${sticky ? 'sticky' : ''}`} >
             <input type='checkbox' id='check' />
             <label for='check' className='checkbtn'>
                 <i className='fas fa-bars'></i>

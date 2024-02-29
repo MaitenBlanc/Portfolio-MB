@@ -38,3 +38,17 @@
     font-weight: bold;
     font-family: var(--poppins);
 }
+
+/* @media only screen and (max-width: 800px) {
+} */
+
+@media only screen and (max-width: 400px) {
+    .skillsCard {
+        margin: auto;
+        padding: 0;
+    }
+
+    .titleSkills {
+        padding: 0.5em;
+    }
+}

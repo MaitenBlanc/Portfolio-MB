@@ -44,3 +44,16 @@
     font-weight: bold;
     font-family: var(--poppins);
 }
+
+/* @media only screen and (max-width: 800px) {
+} */
+
+@media only screen and (max-width: 400px) {
+    .hobbies {
+        padding: 0;
+    }
+
+    .titleHobbies {
+        padding: 0.5em;
+    }
+}
