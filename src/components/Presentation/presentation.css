@@ -24,6 +24,7 @@
     height: auto;
     border-radius: 30%;
     margin: 0 auto;
+    margin-bottom: 0.5em;
 }
 
 .cv {
@@ -35,14 +36,13 @@
     cursor: pointer;
     padding: 0.5em;
     font-family: var(--poppins);
-    justify-content: center;
+    width: fit-content;
+    margin: 0 auto;
 }
 
 .cv:hover {
-    color: white;
     background-color: var(--blue);
-    padding: 0.5em;
-    margin-right: 9.3em;
+    color: white;
 }
 
 @media only screen and (max-width: 400px) {

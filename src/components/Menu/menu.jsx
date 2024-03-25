@@ -29,10 +29,6 @@ export default function Buttons() {
                         <span className="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <div className='containerBtn'>
-                            <button className='btn' onClick={() => i18n.changeLanguage('es')}><i class="bi bi-globe"></i> ES</button>
-                            <button className='btn' onClick={() => i18n.changeLanguage('en')}><i class="bi bi-globe"></i> EN</button>
-                        </div>
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                             <li className="nav-item">
                                 <a className="nav-link" href="#aboutMe">{t("menu.aboutMe")}</a>
