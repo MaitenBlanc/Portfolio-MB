@@ -1,0 +1,58 @@
+@import '../../Variables/fonts.css';
+
+.skillsCard {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 80%;
+    padding-bottom: 0.5em;
+    zoom: 1;
+    vertical-align: top;
+    margin-left: 4em;
+    margin: auto;
+    padding-bottom: 5em;
+    gap: 1em;
+}
+
+.cardSkill {
+    border-radius: 0.5em;
+    width: 70%;
+    height: 70%;
+    margin: 0.5em;
+    padding: 1em;
+    box-shadow: 0 0.2em 0.5em 0.2em #00000010;
+}
+
+.imageCard {
+    display: flex;
+    margin: auto;
+}
+
+.cardTitle {
+    text-align: center;
+    font-weight: bold;
+    font-family: var(--poppins);
+}
+
+.imgBody {
+    margin: 1em;
+    margin-bottom: 0;
+}
+
+/* @media only screen and (max-width: 800px) {
+} */
+
+@media only screen and (max-width: 400px) {
+    .skillsCard {
+        grid-template-columns: repeat(2, 1fr);
+        margin: auto;
+        padding: 0;
+    }
+
+    .titleSkills {
+        padding: 0.5em;
+    }
+
+    .containerHobbies .cardBody {
+        padding: 0;
+    }
+}

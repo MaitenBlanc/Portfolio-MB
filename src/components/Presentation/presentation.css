@@ -1,0 +1,91 @@
+@import '../../Variables/colors.css';
+
+.presentationGrid {
+    display: grid;
+    grid-template-columns: 65% 35%;
+    justify-content: space-between;
+    margin-bottom: 5em;
+}
+
+.presentationDiv {
+    margin: auto;
+}
+
+.presentationText {
+    padding-left: 5em;
+    font-size: 1.2em;
+    font-family: var(--poppins);
+    font-weight: 500;
+}
+
+.photo {
+    display: flex;
+    width: 10em;
+    height: auto;
+    border-radius: 30%;
+    margin: 0 auto;
+}
+
+.cv {
+    display: flex;
+    text-decoration: none;
+    color: var(--blue);
+    margin-top: 0.5em;
+    border-radius: 5em;
+    cursor: pointer;
+    padding: 0.5em;
+    font-family: var(--poppins);
+    justify-content: center;
+}
+
+.cv:hover {
+    color: white;
+    background-color: var(--blue);
+    padding: 0.5em;
+    margin-right: 9.3em;
+}
+
+@media only screen and (max-width: 400px) {
+    .checkbtn {
+        display: block;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .presentationGrid {
+        display: inline;
+        margin: auto;
+    }
+
+    .presentationText {
+        margin: 0;
+        padding: 2em;
+    }
+
+    .image {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .photo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 4em;
+    }
+
+    .cv {
+        margin: auto;
+        font-size: 1.2em;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .photo {
+        translate: -2em;
+    }
+}

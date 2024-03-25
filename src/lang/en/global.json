@@ -1,0 +1,98 @@
+{
+  "menu": {
+    "aboutMe": "About Me",
+    "skills": "Skills",
+    "hobbies": "Hobbies",
+    "education": "Education",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+
+  "presentation": {
+    "presentationText1": "¡Hi! I'm Maitén.",
+    "presentationText2": "I'm a Bachelor's student in Information Systems and Systems Analyst.",
+    "presentationText3": "I live in Concepción del Uruguay, Entre Ríos, Argentina."
+  },
+
+  "cv": {
+    "cv": "View CV here"
+  },
+
+  "aboutMe": {
+    "text1": "I'm interested in Web Development and Object-Oriented Programming.",
+    "text2": "I have great ability to adapt to any type of environment and always strive to improve. I'm characterized by my ability to work in a team and my enthusiasm for learning and developing my skills.",
+    "text3": "I'm looking for a job opportunity in which I can acquire more experience, while continuing with my studies with the goal of growing personally and professionally."
+  },
+
+  "hobbies": {
+    "functional": "Functional",
+    "music": "Music",
+    "bike": "Bike",
+    "bass": "Bass",
+    "yoga": "Yoga",
+    "books": "Read"
+  },
+
+  "education": {
+    "title": "Education",
+    "uader": {
+      "title": "Bachelor of Information Systems",
+      "text": "In progress - Universidad Autónoma de Entre Ríos"
+    },
+    "utn": {
+      "title": "Information Systems Engineering",
+      "text": "Universidad Tecnológica Nacional"
+    },
+    "front": {
+      "title": "Front End Development",
+      "text": "Alura/Oracle"
+    },
+    "react": {
+      "title": "React Development",
+      "text": "Alura/Oracle"
+    },
+    "fullStack": {
+      "title": "Full Stack Development",
+      "text": "Open Bootcamp"
+    },
+    "arg": {
+      "title": "Front End Development",
+      "text": "Argentina Programa 4.0"
+    },
+    "deyel": {
+      "title": "Citizen Deyel Plus",
+      "text": "Deyel - Low Code"
+    },
+    "python": {
+      "title": "Python, Data Science",
+      "text": "Alura/Oracle"
+    },
+    "mobile": {
+      "title": "Mobile Application Development",
+      "text": "Ticmas"
+    },
+    "english": {
+      "title": "English B2",
+      "text": "CUI UBA"
+    }
+  },
+
+  "projects": {
+    "title": "Projects",
+    "cryptor": {
+      "title": "Encryptor - Responsive"
+    },
+    "barber": {
+      "title": "Barbershop Alura"
+    },
+    "aluraGeek": {
+      "title": "AluraGeek (e-commerce)"
+    },
+    "orders": {
+      "title": "App Orders - Responsive"
+    }
+  },
+  "footer": {
+    "dev": "Developed by Maiten Blanc"
+  }
+}

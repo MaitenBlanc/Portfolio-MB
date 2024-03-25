@@ -1,0 +1,35 @@
+@import '../../Variables/fonts.css';
+@import '../../Variables/colors.css';
+
+.aboutMe {
+    padding-bottom: 2em;
+    background-color: var(--gray-background);
+}
+
+.aboutMe-text {
+    font-family: var(--poppins);
+    font-size: 1.15em;
+    font-weight: 300;
+    line-height: 1.7em;
+    padding-left: 8em;
+    text-align: justify;
+    width: 75%;
+}
+
+/* @media only screen and (max-width: 800px) {
+    .photo {
+        translate: -2em;
+    }
+} */
+
+@media only screen and (max-width: 400px) {
+    .aboutMe-title {
+        margin: 0;
+        padding: 0.5em;
+    }
+
+    .aboutMe-text {
+        margin: auto;
+        padding: 0;
+    }
+}

@@ -1,18 +1,20 @@
-import AboutMe from './About-me/aboutMe';
+import { useTranslation } from 'react-i18next';
 import './App.css';
-import Education from './Education/education';
-import Footer from './Footer/footer.jsx';
-import './Header/header';
-import Header from './Header/header';
-import Hobbies from './Hobbies/hobbies';
-import Buttons from './Menu/menu';
-import Presentation from './Presentation/presentation';
-import './Projects/projects.css';
-import Projects from './Projects/projects.jsx';
-import Skills from './Skills/skills';
-import './Skills/skills.css';
+import AboutMe from './components/About-me/aboutMe.jsx';
+import Education from './components/Education/education.js';
+import Footer from './components/Footer/footer.jsx';
+import Header from './components/Header/header.jsx';
+import Hobbies from './components/Hobbies/hobbies.js';
+import Buttons from './components/Menu/menu.jsx';
+import Presentation from './components/Presentation/presentation.jsx';
+import Projects from './components/Projects/projects.jsx';
+import './components/Skills/skills.css';
+import Skills from './components/Skills/skills.js';
 
 function App() {
+
+  const [t, i18n] = useTranslation('global');
+
   return (
     <div className="App">
       <header className="App-header">
@@ -33,13 +35,13 @@ function App() {
           </div>
         </div>
         <div className='education' id='education'>
-          <h5 className='title'>Formación: </h5>
+          <h5 className='title'>{t("education.title")}: </h5>
           <div className='EducationCard'>
             <Education></Education>
           </div>
         </div>
         <div className='projects' id='projects'>
-          <h5 className='title'>Proyectos: </h5>
+          <h5 className='title'>{t("projects.title")}: </h5>
           <div className='projectsCard'>
             <Projects></Projects>
           </div>

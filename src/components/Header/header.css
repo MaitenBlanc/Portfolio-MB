@@ -1,0 +1,53 @@
+@import "../../Variables/fonts.css";
+@import '../../Variables/colors.css';
+
+.containerHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto 0;
+}
+
+.name {
+  font-size: 3em;
+  font-family: var(--dancingScript);
+  margin-left: 1.5em;
+  font-weight: 600;
+  margin-top: 0.5em;
+}
+
+#iconName {
+  color: var(--blue);
+}
+
+.containerBtn {
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  color: var(--blue);
+  border-radius: 5em;
+  border: 1px solid var(--blue);
+  margin-left: 1em;
+}
+
+.btn:focus {
+  background-color: var(--blue);
+  color: white;
+}
+
+@media only screen and (max-width: 800px) {
+  .name {
+    font-size: 3em;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .name {
+    font-size: 1.7em;
+    padding-top: 0.6em;
+    margin: 0;
+    margin-left: 0.5em;
+  }
+}

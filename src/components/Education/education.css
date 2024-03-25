@@ -1,0 +1,106 @@
+@import '../../Variables/fonts.css';
+
+.education {
+    margin-bottom: 5em;
+}
+
+.EducationCard {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 90%;
+    padding-left: 5em;
+}
+
+h1 {
+    font-size: 1.5em;
+}
+
+.cardEd {
+    margin: auto;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin-bottom: 2em;
+}
+
+.bodyEd {
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    background-color: var(--gray-background);
+    border-top: 0.02em solid var(--blue);
+}
+
+.imageEd {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+@media only screen and (max-width: 800px) {
+    div.education {
+        width: auto;
+        padding-bottom: 3em;
+        justify-self: center;
+        align-self: center;
+    }
+
+    div.card {
+        width: 70%;
+        height: auto;
+        padding-bottom: 0;
+        margin-bottom: 2em;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        margin: auto;
+        margin-bottom: 3em;
+    }
+
+    .EducationCard {
+        display: block;
+        justify-items: center;
+        margin: auto;
+        position: relative;
+
+    }
+
+    .titleEducation {
+        width: 50%;
+    }
+
+    .cardBodyEducation {
+        width: auto;
+        height: 50%;
+        translate: 0em;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    div.education {
+        padding: 0;
+    }
+
+    div.card {
+        width: auto;
+        padding: 0;
+        margin-bottom: 1.5em;
+    }
+
+    .EducationCard {
+        display: block;
+        padding: 0;
+    }
+
+    .titleEducation {
+        padding: 0.5em 0.5em 0.5em 0.5em;
+    }
+
+
+    .cardBodyEducation {
+        width: auto;
+        translate: 0em;
+        height: 100%;
+    }
+}

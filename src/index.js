@@ -1,14 +1,34 @@
+import 'bootstrap-icons/font/bootstrap-icons.css';
+import i18next from "i18next";
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import 'bootstrap-icons/font/bootstrap-icons.css'
-import './index.css';
+import { I18nextProvider } from "react-i18next";
 import App from './App';
+import './index.css';
 import reportWebVitals from './reportWebVitals';
+
+import global_en from './lang/en/global.json';
+import global_es from './lang/es/global.json';
+
+i18next.init({
+  interpolation: { escapeValue: false },
+  lng: "es",
+  resources: {
+    es: {
+      global: global_es,
+    },
+    en: {
+      global: global_en,
+    },
+  }
+})
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <I18nextProvider i18n={i18next}>
+      <App />
+    </I18nextProvider>
   </React.StrictMode>
 );
 

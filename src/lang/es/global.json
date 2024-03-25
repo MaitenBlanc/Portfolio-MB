@@ -1,0 +1,99 @@
+{
+  "menu": {
+    "aboutMe": "Sobre Mí",
+    "skills": "Skills",
+    "hobbies": "Hobbies",
+    "education": "Formación",
+    "projects": "Proyectos",
+    "contact": "Contacto"
+  },
+
+  "presentation": {
+    "presentationText1": "¡Hola! Mi nombre es Maitén.",
+    "presentationText2": "Soy estudiante de Licenciatura en Sistemas de Información y Analista en Sistemas.",
+    "presentationText3": "Actualmente vivo en Concepción del Uruguay, Entre Ríos, Argentina."
+  },
+
+  "cv": {
+    "cv": "Visualizar CV aquí"
+  },
+
+  "aboutMe": {
+    "text1": "Tengo gran interés en el Desarrollo Web y la programación orientada a objetos.",
+    "text2": "Poseo gran capacidad para adaptarme a todo tipo de entornos y aportar siempre lo mejor de mí. Me caracterizo por mi facilidad para el trabajo en equipo y mi entusiasmo por aprender y desarrollar mis habilidades.",
+    "text3": "Estoy en busca de una oportunidad laboral en la que adquirir más experiencia, mientras continúo con mis estudios con el fin de crecer personal y profesionalmente."
+  },
+
+  "hobbies": {
+    "functional": "Funcional",
+    "music": "Música",
+    "bike": "Bicicleta",
+    "bass": "Bajo",
+    "yoga": "Yoga",
+    "books": "Leer"
+  },
+
+  "education": {
+    "title": "Formación",
+    "uader": {
+      "title": "Licenciatura en Sistemas de Información",
+      "text": "En curso - Universidad Autónoma de Entre Ríos"
+    },
+    "utn": {
+      "title": "Ingeniería en Sistemas de Información",
+      "text": "Universidad Tecnológica Nacional"
+    },
+    "front": {
+      "title": "Desarrollo Front End",
+      "text": "Alura/Oracle"
+    },
+    "react": {
+      "title": "Formación React",
+      "text": "Alura/Oracle"
+    },
+    "fullStack": {
+      "title": "Desarrollo Full Stack",
+      "text": "Open Bootcamp"
+    },
+    "arg": {
+      "title": "Desarrollo Front End",
+      "text": "Argentina Programa 4.0"
+    },
+    "deyel": {
+      "title": "Citizen Deyel Plus",
+      "text": "Deyel - Low Code"
+    },
+    "python": {
+      "title": "Python, Data Science",
+      "text": "Alura/Oracle"
+    },
+    "mobile": {
+      "title": "Desarrollo de Aplicaciones Móviles",
+      "text": "Ticmas"
+    },
+    "english": {
+      "title": "Inglés B2",
+      "text": "CUI UBA"
+    }
+  },
+
+  "projects": {
+    "title": "Proyectos",
+    "cryptor": {
+      "title": "Encriptador - Responsive"
+    },
+    "barber": {
+      "title": "Barbería Alura"
+    },
+    "aluraGeek": {
+      "title": "AluraGeek (e-commerce)"
+    },
+    "orders": {
+      "title": "App Pedidos - Responsive"
+    }
+  },
+
+  "footer": {
+    "dev": "Desarrollado por Maitén Blanc"
+  }
+}
