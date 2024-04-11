@@ -16,7 +16,7 @@ const Presentation = () => {
             </div>
             <div className='image'>
                 <img src={photo} alt='Foto de Maitén Blanc' className='photo' />
-                <a className='cv' href='https://maitenblanc.github.io/CV/' target='blank'>
+                <a className='cv' href={t("cv.url")}' target='blank'>
                     <i class="bi bi-file-earmark-person"></i> {t("cv.cv")}</a>
             </div>
         </div>
